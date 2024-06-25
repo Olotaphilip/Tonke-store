@@ -1,0 +1,123 @@
+body {
+	margin: 0px;
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
+}
+.footer-wrapper {
+	background-color: #11122b;
+	color: #cbcbcb;
+	font-family: "ubuntu condensed", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 350px;
+	margin-top: -4px;
+}
+.footer-wrapper > .footer-logo img {
+	width: 120px;
+	height: 100%;
+	filter: brightness(50%);
+}
+.footer-wrapper > .contact-hours-wrapper  span {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+.footer-wrapper > .contact-hours-wrapper > .hours {
+	font-size: 0.8em;
+	color: #cea135;
+	text-transform: uppercase;
+}
+.footer-wrapper > .link-wrapper {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 400px;
+}
+.footer-wrapper > .footer-icons {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-wrapper > .footer-icons a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+.footer-wrapper > .footer-icons a:hover {
+	color: #cea135;
+}
+.footer-wrapper > .copyright-wrapper {
+	margin-bottom: 10px;
+	font-size: 0.7em;
+	color: #858585;
+}
+ /* skewed header */
+
+.skewed-header {
+	position: relative;
+	height: 350px;
+	overflow: hidden;
+}
+.skewed-header > .header-bg {
+	position: absolute;
+    top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	transform: skewY(-6deg);
+	transform-origin: top left;
+	filter: brightness(50%);
+}
+.skewed-header > .skewed-header-wrapper {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+	width: 600px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .header-wrapper {
+	background-color: #cea135;
+	color: #11122b;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
